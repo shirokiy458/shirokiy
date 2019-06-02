@@ -1,0 +1,48 @@
+@import "../variable";
+
+.websites {
+  &-card{
+    &-item {
+      background: $color-main;
+      border-radius: $border-radius;
+      color: $color-textbase;
+      padding: 20px;
+      text-decoration: none;
+      width: 30%;
+      &:hover {
+        box-shadow: 0 0 5px #999 ;
+      }
+      &:not(:last-of-type){
+        margin-right: 45px;
+      }
+    }
+  }
+}
+
+.profile-text {
+  line-height: 200%;
+}
+
+.contact {
+  &-form {
+    background: $color-main;
+    border-radius: $border-radius;
+    padding: 20px;
+    > input.contact-form-textarea,
+    textarea.contact-form-textarea {
+      background: #fff;
+      border: 1px solid $color-textbase;
+      border-radius: $border-radius;
+      padding: 5px;
+    }
+    &-label {
+      display: block;
+    }
+    &-btn {
+      color: #fff;
+      background: $color-accent;
+      display: block;
+    }
+
+  }
+}

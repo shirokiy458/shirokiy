@@ -1,0 +1,56 @@
+.gnav {
+  &-list {
+    display: flex;
+    font-family: $google-font-Ubuntu;
+    list-style: none;
+    &-item {
+      padding: 10px 0 10px 40px;
+      > a {
+        color: $color-textbase;
+        position: relative;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          &::before {
+            color: $color-accent;
+            content: "→";
+            position: absolute;
+              top: 0;
+              left: -1.5em;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sns_nav {
+  &-list {
+    @extend .gnav-list;
+    &-item {
+      @extend .gnav-list-item;
+    }
+  }
+}
+
+// .link-block {
+//   max-width: $width-wrap;
+//   margin: 0 auto;
+//   display: block;
+// }
+
+.tolink {
+  &-top {
+    background: $color-accent;
+    border-radius: $border-radius;
+    color: #fff;
+    // margin-left: ($width-wrap / 2) - 40px;
+    padding: 5px 10px;
+    position: fixed;
+      bottom: 60px;
+      //left: 50%;
+      right: 10px;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,21 @@
+.h1 {
+  display: inline;
+  font-family: $google-font-Ubuntu;
+  font-size: 25x;
+  a {
+    text-decoration: none;
+    color: $color-main;
+    text-shadow:
+     #666 2px 2px 0px,
+     #666 -2px 2px 0px,
+     #666 2px -2px 0px,
+     #666 -2px -2px 0px;
+  }
+}
+
+.h2 {
+  font-family: $google-font-Ubuntu;
+  &::first-letter {
+    color: $color-accent;
+  }
+}
