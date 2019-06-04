@@ -23,7 +23,7 @@ gulp.task("sass", function() {
         cascade: false,
         grid: true // gridの値にtrueを指定する
       }))
-      .pipe(gulp.dest("docs/css", {sourcemaps: 'resource/maps'}))
+      .pipe(gulp.dest("docs/css", { sourcemaps: './../../resource/maps' }))
   );
 });
 

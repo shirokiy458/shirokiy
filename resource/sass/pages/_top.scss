@@ -1,5 +1,3 @@
-@import "../variable";
-
 .websites {
   &-card{
     &-item {
@@ -15,12 +13,21 @@
       &:not(:last-of-type){
         margin-right: 45px;
       }
+      img {
+        border: 1px solid #ccc;
+      }
     }
   }
 }
 
 .profile-text {
   line-height: 200%;
+}
+
+.skill {
+  &-list {
+    margin-left: 1.5em;
+  }
 }
 
 .contact {

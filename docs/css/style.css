@@ -1,1 +1,184 @@
-@charset "UTF-8";body{color:#333;font-family:"Noto Sans JP",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}.text{font-size:12px}.gnav-list,.sns_nav-list{display:-webkit-box;display:-ms-flexbox;display:flex;font-family:Ubuntu;list-style:none}.gnav-list-item,.sns_nav-list-item{padding:10px 0 10px 40px}.gnav-list-item>a,.sns_nav-list-item>a{color:#333;position:relative;text-decoration:none}.gnav-list-item>a:hover,.sns_nav-list-item>a:hover{text-decoration:underline}.gnav-list-item>a:hover::before,.sns_nav-list-item>a:hover::before{color:#b87575;content:"→";position:absolute;top:0;left:-1.5em;text-decoration:none}.tolink-top{background:#b87575;border-radius:5px;color:#fff;padding:5px 10px;position:fixed;bottom:60px;right:10px;text-decoration:none}.header{background:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;max-width:100%}.btn{border-radius:5px;padding:3px 10px}.c-img_block>img{width:100%}.h1{display:inline;font-family:Ubuntu;font-size:25x}.h1 a{text-decoration:none;color:#fdd;text-shadow:#666 2px 2px 0,#666 -2px 2px 0,#666 2px -2px 0,#666 -2px -2px 0}.h2{font-family:Ubuntu}.h2::first-letter{color:#b87575}.c-flex{display:-webkit-box;display:-ms-flexbox;display:flex}.c-between{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.c-grid{display:grid}.l-mb20{margin-bottom:20px}.l-mb40{margin-bottom:40px}.wrap{margin-left:auto;margin-right:auto;max-width:1000px;padding:20px 0}.main{margin-top:40px}
+@charset "UTF-8";
+
+body {
+  color: #333;
+  font-family: "Noto Sans JP", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text {
+  font-size: 12px;
+}
+
+.gnav-list,
+.sns_nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Ubuntu";
+  list-style: none;
+}
+
+.gnav-list-item,
+.sns_nav-list-item {
+  padding: 10px 0 10px 40px;
+}
+
+.gnav-list-item > a,
+.sns_nav-list-item > a {
+  color: #333;
+  position: relative;
+  text-decoration: none;
+}
+
+.gnav-list-item > a:hover,
+.sns_nav-list-item > a:hover {
+  text-decoration: underline;
+}
+
+.gnav-list-item > a:hover::before,
+.sns_nav-list-item > a:hover::before {
+  color: #B87575;
+  content: "→";
+  position: absolute;
+  top: 0;
+  left: -1.5em;
+  text-decoration: none;
+}
+
+.tolink-top {
+  background: #B87575;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  text-decoration: none;
+}
+
+.header {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
+.c-img_block > img {
+  width: 100%;
+}
+
+.h1 {
+  display: inline;
+  font-family: "Ubuntu";
+  font-size: 25x;
+}
+
+.h1 a {
+  text-decoration: none;
+  color: #B87575;
+}
+
+.h2 {
+  font-family: "Ubuntu";
+}
+
+.h2::first-letter {
+  color: #B87575;
+}
+
+.c-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.l-mb20 {
+  margin-bottom: 20px;
+}
+
+.l-mb40 {
+  margin-bottom: 40px;
+}
+
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  padding: 20px 0;
+}
+
+.main {
+  margin-top: 40px;
+}
+
+.websites-card-item {
+  background: #fdd;
+  border-radius: 5px;
+  color: #333;
+  padding: 20px;
+  text-decoration: none;
+  width: 30%;
+}
+
+.websites-card-item:hover {
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 5px #999;
+}
+
+.websites-card-item:not(:last-of-type) {
+  margin-right: 45px;
+}
+
+.websites-card-item img {
+  border: 1px solid #ccc;
+}
+
+.profile-text {
+  line-height: 200%;
+}
+
+.skill-list {
+  margin-left: 1.5em;
+}
+
+.contact-form {
+  background: #fdd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.contact-form > input.contact-form-textarea,
+.contact-form textarea.contact-form-textarea {
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.contact-form-label {
+  display: block;
+}
+
+.contact-form-btn {
+  color: #fff;
+  background: #B87575;
+  display: block;
+}
+/*# sourceMappingURL=../../resource/maps/style.css.map */
