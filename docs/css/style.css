@@ -64,6 +64,10 @@ body {
   max-width: 100%;
 }
 
+.footer {
+  color: #B87575;
+}
+
 .btn {
   border-radius: 5px;
   padding: 3px 10px;
@@ -90,6 +94,10 @@ body {
 
 .h2::first-letter {
   color: #B87575;
+}
+
+.h3 {
+  word-wrap: break-word;
 }
 
 .c-flex {
@@ -134,7 +142,7 @@ body {
   color: #333;
   padding: 20px;
   text-decoration: none;
-  width: 30%;
+  width: 300px;
 }
 
 .websites-card-item:hover {
